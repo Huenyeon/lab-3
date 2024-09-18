@@ -20,6 +20,11 @@ def lyrics():
         time.sleep(delays[i])
         print('')
 
+def artists():
+    print("Bruno Mars & Lady Gaga")
+
+
+artists()
 def song_title():
     print("Die With a Smile")
 
