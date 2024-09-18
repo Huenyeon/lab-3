@@ -11,11 +11,11 @@ def lyrics():
 
     delays = [0.6, 0.7]
 
-    for i, (line, char_delay) in enumerate(line):
+    for i, (line, char_delay) in enumerate(lines):
         for char in line:
             print(char, end= '')
             sys.stdout.flush()
-            sleep(chr_delay)
+            sleep(char_delay)
 
         time.sleep(delays[i])
         print('')
