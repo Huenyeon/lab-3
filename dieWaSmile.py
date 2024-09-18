@@ -20,4 +20,9 @@ def lyrics():
         time.sleep(delays[i])
         print('')
 
+def song_title():
+    print("Die With a Smile")
+
+
+song_title()
 lyrics()
